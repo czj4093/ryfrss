@@ -1,0 +1,10 @@
+server:
+  port: 86
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/ryf?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: chenzejin
+  jpa:
+    open-in-view: false
